@@ -1,0 +1,228 @@
+
+
+/*body{
+   background: url(img.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+/*body {
+	font-family: 'Poppins', sans-serif;
+        
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        
+    
+  
+}*/
+.main1{
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.1), 
+          rgba(0, 0, 0, 0.1)
+        ), url('bg.jpg')no-repeat center center fixed;  
+     background-size: cover;
+}
+
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 47px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 75%;
+    left: 23%;
+}
+
+.second{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+.third{
+    position: absolute;
+    top: 75%;
+    left: 62%;
+}
+@media screen and (max-width: 992px){
+ .wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.second{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+}
+.third{
+    position: absolute;
+    top: 75%;
+    left: 65%;
+}   
+}
+@media screen and (max-width :600px){
+ .wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 75%;
+    left: 2%;
+}
+
+.second{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+.third{
+    position: absolute;
+    top: 75%;
+    left: 80%;
+}   
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-size: 46px;
+    color:#f2f2f2;
+    left: 7%;
+    
+}
+.b{
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.85);
+-webkit-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.85);
+-moz-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.85);
+}
+.a{
+    border: 2px solid #fff;
+    padding: 20px 40px;
+    margin-top: 13vh;
+    box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+   
+}
+.a1{
+    
+    border: 2px solid #fff;
+    padding: 10px 60px;
+    margin-top: 2vh;
+    box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+   
+}
+
+.toping{
+    margin-top: -30px;
+}
+.c{
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    margin-top: 15vh;
+    box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 28px 5px rgba(0,0,0,0.75);
+}
+.bg{
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.2), 
+          rgba(0, 0, 0, 0.2)
+        ),url(hitk3.jpg)no-repeat center center fixed ;
+    background-size: cover;
+}
+.bg2{
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.1), 
+          rgba(0, 0, 0, 0.1)
+        ), url(hitk4.jpg)no-repeat center center fixed ;
+    background-size: cover;
+}
+.back{
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.2), 
+          rgba(0, 0, 0, 0.2)
+        ),url(hitk6.jpg)no-repeat center center fixed ;
+    background-size: cover;
+}
+.qsnback{
+    background:
+        url(whiteback.jpg)no-repeat center center fixed ;
+        background-size: cover;
+}
+
+.design{
+    animation: colorchange 2s infinite;
+}
+@keyframes colorchange{
+    0%{color:#cc0000;}
+    25%{color:white;}
+    50%{color: #4d004d;}
+    100%{color: white;}
+}
+.center{
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.con{
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.text{
+    text-align: left;
+}
+
+
+.footer{
+padding: 10px 0;
+background-color: #101010;
+color:#9d9d9d;
+bottom: 0;
+width: 100%;
+}
+.footer1{
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+  padding: 10px 0;
+background-color:transparent;
+color:white;
+}
